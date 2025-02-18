@@ -20,8 +20,8 @@ The program will now download OpenCore (https://github.com/acidanthera/opencorep
 When the image has been downloaded and verified, the program will exit! Follow the path given (which will be the path you gave + \OpenCore\Utilites\macrecovery) and find the com.apple.recovery.boot folder inside
 
 # How do I use the com.apple.recovery.boot folder?
-Use rufus (rufus.ie) to format the drive as non-bootable FAT32, as seen below, and then copy the com.apple.recovery.boot folder to it. This will then boot on real Macs. For Hackintoshes, simply add your EFI folder to the USB drive along with the com.apple.recovery.boot folder and boot from this. EFI file creation details available at dortania.github.io
 ![format-usb-rufus 43feba9e](https://github.com/user-attachments/assets/4e68ac88-0c04-4d55-b121-80a5daa80f13)
+Use rufus (rufus.ie) to format the drive as non-bootable FAT32, as seen above, and then copy the com.apple.recovery.boot folder to it. This will then boot on real Macs. For Hackintoshes, simply add your EFI folder to the USB drive along with the com.apple.recovery.boot folder and boot from this. EFI file creation details available at dortania.github.io
 
 # Credits:
 Apple for macOS
