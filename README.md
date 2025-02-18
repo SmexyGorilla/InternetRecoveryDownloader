@@ -26,4 +26,5 @@ Use rufus (rufus.ie) to format the drive as non-bootable FAT32, as seen above, a
 
 # Credits:
 Apple for macOS
+
 Dortania/Acidanthera for OpenCore
