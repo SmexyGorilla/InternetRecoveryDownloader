@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InternetRecoveryDownloader", "InternetRecoveryDownloader.vcxproj", "{A75684DD-B62B-4089-BF87-E405E9A22507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A75684DD-B62B-4089-BF87-E405E9A22507}.Debug|x64.ActiveCfg = Debug|x64
+		{A75684DD-B62B-4089-BF87-E405E9A22507}.Debug|x64.Build.0 = Debug|x64
+		{A75684DD-B62B-4089-BF87-E405E9A22507}.Debug|x86.ActiveCfg = Debug|Win32
+		{A75684DD-B62B-4089-BF87-E405E9A22507}.Debug|x86.Build.0 = Debug|Win32
+		{A75684DD-B62B-4089-BF87-E405E9A22507}.Release|x64.ActiveCfg = Release|x64
+		{A75684DD-B62B-4089-BF87-E405E9A22507}.Release|x64.Build.0 = Release|x64
+		{A75684DD-B62B-4089-BF87-E405E9A22507}.Release|x86.ActiveCfg = Release|Win32
+		{A75684DD-B62B-4089-BF87-E405E9A22507}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30D990E1-8045-4622-A15B-4ED34E4357BA}
+	EndGlobalSection
+EndGlobal
