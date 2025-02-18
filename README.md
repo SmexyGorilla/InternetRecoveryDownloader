@@ -21,6 +21,7 @@ When the image has been downloaded and verified, the program will exit! Follow t
 
 # How do I use the com.apple.recovery.boot folder?
 ![format-usb-rufus 43feba9e](https://github.com/user-attachments/assets/4e68ac88-0c04-4d55-b121-80a5daa80f13)
+
 Use rufus (rufus.ie) to format the drive as non-bootable FAT32, as seen above, and then copy the com.apple.recovery.boot folder to it. This will then boot on real Macs. For Hackintoshes, simply add your EFI folder to the USB drive along with the com.apple.recovery.boot folder and boot from this. EFI file creation details available at dortania.github.io
 
 # Credits:
