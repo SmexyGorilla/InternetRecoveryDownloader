@@ -24,7 +24,14 @@ When the image has been downloaded and verified, the program will exit! Follow t
 
 Use rufus (rufus.ie) to format the drive as non-bootable FAT32, as seen above, and then copy the com.apple.recovery.boot folder to it. This will then boot on real Macs. For Hackintoshes, simply add your EFI folder to the USB drive along with the com.apple.recovery.boot folder and boot from this. EFI file creation details available at dortania.github.io
 
-# Credits:
-Apple for macOS
+# Notes:
 
-Dortania/Acidanthera for OpenCore
+Guaranteed compatibility for Windows 10 and 11 operating systems. No compatibility for Windows 8.1 and below buarenteed, but no reason why it wouldn't work!
+
+Full Visual Studio 2022 compatible source is available.
+
+No Linux and macOS support becuase the commands for downloading would be different. Build them yourself with Visual Studio 2022 Community!
+
+Windows SmartScreen will block these .exe files. Click 'More info' and then 'Run anyway' to run the files on your computer.
+
+32-bit release (InternetRecoveryDownloader32.exe) runs on all x64 and x86 systems. 64-bit release (InternetRecovery64.exe) only runs on x64 systems. Use InternetRecoveryx64.exe for Snapdragon laptops running Windows ARM64. x64 emulation is good enough. if you don't know what this is, YOU DON'T HAVE ONE! If you have doubt, use InternetRecovery32.exe
