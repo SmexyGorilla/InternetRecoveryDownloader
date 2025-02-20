@@ -1,6 +1,9 @@
 # InternetRecoveryDownloader
 A simple Windows program to download macOS Internet Recovery
 
+# Prerequisites
+Python (a fairly recent one is better) should be installed
+A fairly vanilla Windows install so all the commands work properly
 
 # Usage:
 # Step 1: Select version to download:
@@ -16,17 +19,24 @@ Input a path to which to save the OpenCore zip, and the expanded folder that con
 The program will now download OpenCore (https://github.com/acidanthera/opencorepkg/), and expand this into a folder, before downloading macOS / OS X
 
 # Step 4:
-![image](https://github.com/user-attachments/assets/0bd18fa7-f4b6-4ac4-baa1-14d48d12f1a0)
-When the image has been downloaded and verified, the program will exit! Follow the path given (which will be the path you gave + \OpenCore\Utilites\macrecovery) and find the com.apple.recovery.boot folder inside
+![image](https://github.com/user-attachments/assets/b52a2cc0-3d12-4b28-a230-478755016019)
 
-# How do I use the com.apple.recovery.boot folder?
-![format-usb-rufus 43feba9e](https://github.com/user-attachments/assets/4e68ac88-0c04-4d55-b121-80a5daa80f13)
+The program should now launch Rufus. This is a program for formatting drives, available at https://rufus.ie/. 
+Select your device in the drop down menu and configure ntil the settings in your Rufus window look exactly the same as above. 
+Click start to format your USB. ALL DATA WILL BE LOST AS WITH ALL FORMATTING OPERATIONS! 
+Once this has finished, close Rufus and the program will continue. 
 
-Use rufus (rufus.ie) to format the drive as non-bootable FAT32, as seen above, and then copy the com.apple.recovery.boot folder to it. This will then boot on real Macs. For Hackintoshes, simply add your EFI folder to the USB drive along with the com.apple.recovery.boot folder and boot from this. EFI file creation details available at dortania.github.io
+# Step 5:
+
+Now the program will copy and delete files. 
+At the prompt, enter the path of the USB drive you just formatted. It should be D:\ or similar. Please input the full path "D:\" into the script, with the backslash, or it will fail! The program will then copy the internet recovery folder ot your USB drive and delete what is left on the hard drive, then exit.
+
+# Step 6:
+Use the USB drive. If you are wanting to make a Hackintosh, please refer to https://dortania.github.io/. If you are going to boot Internet Recovery on a real Mac, simply eject the USB from your Windows computer and boot from it on a Mac that supports the version you are booting.
 
 # Notes:
 
-Guaranteed compatibility for Windows 10 and 11 operating systems. No compatibility for Windows 8.1 and below buarenteed, but no reason why it wouldn't work!
+Guaranteed compatibility for Windows 10 and 11 operating systems. No compatibility for Windows 8.1 and below guarenteed, but no reason why it wouldn't work!
 
 Full Visual Studio 2022 compatible source is available.
 
