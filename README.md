@@ -1,4 +1,4 @@
-# InternetRecoveryDownloader
+# Johns2009VolkswagenGolf / InternetRecoveryDownloader
 A simple Windows program to download macOS Internet Recovery
 
 # Prerequisites
