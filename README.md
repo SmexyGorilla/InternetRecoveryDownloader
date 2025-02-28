@@ -2,8 +2,10 @@
 A simple Windows program to download macOS Internet Recovery
 
 # Prerequisites
-Python (a fairly recent one is better) should be installed
+Python (a fairly recent one is better) 
+
 A fairly vanilla Windows install so all the commands work properly
+
 Visual C++ 2015-2022 runtime (https://aka.ms/vs/17/release/vc_redist.x64.exe for x64 - clicking this link downloads the .exe file to your default download location. Check in your browser settings if you are unsure) https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170 for others
 
 # Usage:
