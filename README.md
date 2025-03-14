@@ -43,7 +43,7 @@ Guaranteed compatibility for Windows 10 and 11 operating systems. No compatibili
 
 Full Visual Studio 2022 compatible source is available.
 
-No Linux and macOS support becuase ~~if you use a *nix based OS you're a stupid idiot~~ the commands for downloading would be different. Build them yourself with Visual Studio 2022 Community!
+No Linux and macOS support because ~~if you use a *nix based OS you're __very__ spasticated~~ the commands for downloading would be different. Build them yourself with Visual Studio 2022 Community!
 
 Windows SmartScreen will block these .exe files. Click 'More info' and then 'Run anyway' to run the files on your computer.
 
